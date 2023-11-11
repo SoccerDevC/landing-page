@@ -1,8 +1,14 @@
+body{
+    padding: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .entire-document{
     display: flex;
     flex-direction: column;
     margin: 0px;
-    padding: auto;
+    padding: 10px auto;
     width:600px;
 
 }
@@ -13,9 +19,12 @@
     flex: 1;
 }
 .header-top{
+    width:600px;
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 200px;
 }
 .logo{
     width:100px;
@@ -38,13 +47,11 @@
     height:200px;
 }
 .header-links{
-    width:80px;
-   display: flex; 
-   justify-content: space-between;
-   gap:10px;
-   padding: 0px;
-   margin: 0px;
-   flex-shrink:0;
+    display: flex; 
+   
+    gap:10px;
+    padding: 0px;
+    margin: 0px;
 
 }
 a{
