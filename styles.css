@@ -11,3 +11,22 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.logo{
+    width:100px;
+    height:40px;
+}
+.header-bottom{
+    display: flex;
+}
+.people{
+    width:200px;
+    height:300px;
+}
+.header-links{
+   display: flex; 
+   justify-content: space-between;
+   gap:12px;
+}
+a{
+    text-decoration: none;
+}
