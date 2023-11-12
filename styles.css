@@ -1,15 +1,10 @@
 body{
-    padding: 10px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.entire-document{
-    display: flex;
-    flex-direction: column;
     margin: 0px;
-    padding: 10px auto;
-    width:600px;
+    
+    padding: 0px;
+    display: flex;
+  
+    flex-direction: column;
 
 }
 
@@ -17,52 +12,51 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding:10px 20%;
+  
 }
 .header-top{
-    width:600px;
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    gap: 200px;
+    flex:1;
+    flex-shrink: 0;
+    gap:550px;
+ 
 }
 .logo{
-    width:100px;
+    width:80px;
     height:40px;
     flex-shrink: 0;
 
 }
 .header-bottom{
     display: flex;
- 
 
-    align-items: center;
-    justify-content: center;
 }
 
 .people,
 .title,
 .size{
-    width:300px;
+    width:400px;
     height:200px;
+    flex-shrink: 0;
 }
 .header-links{
     display: flex; 
-   
     gap:10px;
     padding: 0px;
     margin: 0px;
-
+    flex-shrink: 0;
 }
 a{
     text-decoration: none;
+    color:gray;
 }
 .home{
     font-weight: 700;
     font-size: 32px;
 }
 .span-scorpio{
-    background-color: aqua;
+    background-color:#1F3337;
     font-style: italic;
 }
 button{
@@ -71,4 +65,24 @@ button{
     border-radius: 5px;
     border: none;
     padding: 5px 30px;
+    margin-top: 10px;
+}
+.header,
+.footer{
+    background-color: #1F2937;
+}
+.title{
+    color: white;
+}
+.home{
+    font-size: 48px;
+    font-weight: 900;
+}
+.footer{
+    display: block;
+}
+.header-bottom,
+.header-top{
+    align-items: center;
+    justify-content: center;
 }
